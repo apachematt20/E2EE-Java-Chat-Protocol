@@ -11,6 +11,8 @@ Most modern chat applications rely on pre-built secure sockets (like TLS/SSL). T
 *   **Multi-threaded Architecture:** The server concurrently handles multiple clients without blocking I/O threads.
 *   **Zero Dependencies:** Built entirely with pure Java (`java.net`, `java.security`, `javax.crypto`).
 
+  ![Secure Chat Handshake](screenshot.png)
+
 ---
 
 ## How the Cryptography Works (The Handshake)
